@@ -1,3 +1,13 @@
-p {
+body {
+	background: beige;
+}
+
+h1 {
 	color: indigo;
+	text-align: center;
+}
+
+img {
+	width: 95%;
+	margin: 0% 2.5%;
 }
