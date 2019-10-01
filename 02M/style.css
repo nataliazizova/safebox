@@ -1,0 +1,23 @@
+body {
+	background-color: #FFE4C4;
+}
+h2 {
+	text-align: center; 
+	color: red;
+}
+
+.red {
+    background-color: rgba(255, 0,0,.2); 
+}
+
+.green {
+	background-color: rgba(0, 255,0,.2);
+}
+
+.blue {
+	background-color: rgba(0,0,255,.2);
+}
+
+p{
+	color:green;
+}

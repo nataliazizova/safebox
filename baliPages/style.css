@@ -1,6 +1,9 @@
 body {
 	background: beige;
 }
+p {
+	font-family: Papyrus, Times,serif;
+}
 
 h1 {
 	color: maroon;
@@ -8,6 +11,16 @@ h1 {
 }
 
 img {
-	width: 95%;
-	margin: 0% 2.5%;
+	width: 29%;
+}
+
+#important {
+	color: red;
+}
+
+th {
+	background-color: pink;
+}
+th#gray {
+	background-color: gray;
 }
