@@ -1,23 +1,42 @@
 body {
-	background-color: #FFE4C4;
+	/*background-color: antiquewhite; /*#FFE4C4*/
+	background-image: url(media/img/rock.jpg);
+	background-size: cover;
 }
+
 h2 {
 	text-align: center; 
 	color: red;
+	border: 3px solid gray;
+	cursor: none;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+p {
+	color:green;
 }
 
 .red {
-    background-color: rgba(255, 0,0,.2); 
+    background-color: rgba(255,0,0,.2); 
 }
 
 .green {
-	background-color: rgba(0, 255,0,.2);
+	background-color: rgba(0,255,0,.2);
 }
 
 .blue {
-	background-color: rgba(0,0,255,.2);
+    background-color: rgba(0,0,255,.2);
 }
 
-p{
-	color:green;
+.black {
+	background-color: rgba(0,0,0,.1);
 }
+
+.gold {
+	background-color: rgba(255,215,0,.2);
+}
+
