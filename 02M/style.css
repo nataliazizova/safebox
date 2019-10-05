@@ -1,14 +1,10 @@
-* {
-	text-align: right;
-}
-
 body {
 	/*background-color: antiquewhite; /*#FFE4C4*/
 	background-image: url(media/img/rock.jpg);
 	background-size: cover;
 }
 
-section > h2 {
+h2, p {
 	text-align: center; 
 	color: red;
 	border: 3px solid gray;
@@ -18,6 +14,14 @@ section > h2 {
 li {
     list-style: none;
     display: inline-block;
+    color: orange;
+}
+
+a {
+	color: orange;
+}
+a:hover {
+	color: red;
 }
 
 p {
@@ -38,6 +42,10 @@ p {
 
 .gold {
 	background-color: rgba(255,215,0,.2);
+}
+
+.gold:hover {
+	background-color: rgba(255,0,0,.4);
 }
 
 .border {
