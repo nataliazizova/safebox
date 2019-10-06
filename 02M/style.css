@@ -2,13 +2,25 @@ body {
 	/*background-color: antiquewhite; /*#FFE4C4*/
 	background-image: url(media/img/rock.jpg);
 	background-size: cover;
+	text-align: center; 
 }
 
 h2, p {
-	text-align: center; 
-	color: red;
-	border: 3px solid gray;
+	/*border: 0px solid gray;*/
 	cursor: none;
+}
+
+h2:hover, p:hover, nav:hover {
+	background-color: rgba(128,128,128,.3); /*gray*/
+}
+
+h2{
+	color: red;
+}
+
+p {
+	color:orange;
+	background-color: rgba(128,128,128,.2); /*gray*/
 }
 
 li {
@@ -19,15 +31,13 @@ li {
 
 a {
 	color: orange;
-}
+} 
+
 a:hover {
 	color: red;
 }
 
-p {
-	color:green;
-}
-
+/*
 .red {
     background-color: rgba(255,0,0,.2); 
 }
@@ -44,18 +54,10 @@ p {
 	background-color: rgba(255,215,0,.2);
 }
 
-.gold:hover {
-	background-color: rgba(255,0,0,.4);
-}
-
-.border {
-	border: 1px dashed orange;
-}
-
 #black {
 	background-color: rgba(0,0,0,1);
 }
 
 #black2 {
 	background-color: rgba(0,0,0,.5);
-}
+}*/
