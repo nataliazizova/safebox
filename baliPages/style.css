@@ -1,6 +1,10 @@
 body {
 	background: beige;
 }
+table {
+	width: 1000px; 
+}
+
 p {
 	font-family: Papyrus, Times,serif;
 }
@@ -23,4 +27,16 @@ th {
 }
 th#gray {
 	background-color: gray;
+}
+td#yellow {
+	background-color: yellow;
+}
+
+iframe {
+	height: 400px; 
+	width: 500px; 
+}
+
+div a img {
+	width: 100px; height: 100px;
 }
