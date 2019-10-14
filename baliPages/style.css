@@ -1,5 +1,6 @@
 body {
-	background: beige;
+	background: rgb(27, 43, 52);
+	color: rgb(234, 205, 246);
 }
 table {
 	width: 1000px; 
@@ -39,4 +40,12 @@ iframe {
 
 div a img {
 	width: 100px; height: 100px;
+}
+.face {
+	background-color: green;
+}
+
+[placeholder] {
+	font-weight: bolder; 
+	color:green;
 }
